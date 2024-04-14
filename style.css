@@ -34,9 +34,32 @@ nav > #links > a {
     color: var(--main-text)
 }
 
-#navbar,
-.container,
-footer {
+nav > #links > a:hover {
+    background-color: var(--main-text);
+    color: var(--main-background);
+}
 
-    
+footer {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+footer > button {
+
+    border: none;
+    background-color: none;
+}
+
+footer > button > img {
+    max-width: 3em;
+    fill:none;
+    border-radius: 10%;
+    outline: none;
+}
+
+footer > button > img:hover {
+    opacity: 0.7;
 }
