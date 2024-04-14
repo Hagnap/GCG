@@ -1,0 +1,42 @@
+* {
+    --main-background: #ecbd47;
+    --green: #567d46;
+    --secondary-background: #ECF0F1;
+    --main-text: #171614;
+
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+nav {
+    background-color: var(--main-background);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+nav > #logo {
+    max-width: 5%;
+}
+
+nav > #links {
+
+}
+
+nav > #links > a {
+    outline: 1px solid var(--main-text);
+    padding: 0.75em;
+
+    text-decoration: none;
+    color: var(--main-text)
+}
+
+#navbar,
+.container,
+footer {
+
+    
+}
